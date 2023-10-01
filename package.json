@@ -9,15 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@walletconnect/ethereum-provider": "^2.10.1",
+    "magic-sdk": "^20.1.0",
+    "moralis": "^2.23.1",
+    "moralis-v1": "^1.13.0",
+    "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "react-moralis": "^1.4.2",
+    "web3uikit": "^1.0.4"
   },
   "devDependencies": {
     "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest",
     "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest"
   }
 }
